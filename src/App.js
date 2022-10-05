@@ -1,8 +1,11 @@
+import React from "react";
+import DetailsContainer from "./components/DetailsContainer";
 
 function App() {
   return (
     <div className="App">
-      This is my first react application
+      Hello World
+      {/* <DetailsContainer /> */}
     </div>
   );
 }

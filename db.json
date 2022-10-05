@@ -3,56 +3,56 @@
       {
         "id": 1,
         "name": "Brian Kinoti",
-        "identity-no": "33457298",
+        "identitynumber": "33457298",
         "gender": "Male",
         "age": 29
       },
       {
         "id": 2,
         "name": "Mercy Kanana",
-        "identity-no": "34542789",
+        "identitynumber": "34542789",
         "gender": "Female",
         "age": 28
       },
       {
         "id": 3,
         "name": "Joseph Kimani",
-        "identity-no": "35532688",
+        "identitynumber": "35532688",
         "gender": "Male",
         "age": 25
       },
       {
         "id": 4,
         "name": "Kameri Mwangi",
-        "identity-no": "36156288",
+        "identitynumber": "36156288",
         "gender": "Male",
         "age": 23
       },
       {
         "id": 5,
         "name": "Ifrah Hassan",
-        "identity-no": "36876197",
+        "identitynumber": "36876197",
         "gender": "Female",
         "age": 24
       },
       {
         "id": 6,
         "name": "Cynthia Njeri",
-        "identity-no": "36758933",
+        "identitynumber": "36758933",
         "gender": "Female",
         "age": 24
       },
       {
         "id": 7,
         "name": "Dewar Baraka",
-        "identity-no": "34567281",
+        "identitynumber": "34567281",
         "gender": "Male",
         "age": 25
       },
       {
         "id": 8,
         "name": "Stella Wambui",
-        "identity-no": "32675486",
+        "identitynumber": "32675486",
         "gender": "Female",
         "age": 30
       }

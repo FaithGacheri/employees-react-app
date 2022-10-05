@@ -1,12 +1,12 @@
 import React from "react";
 
-function Employee(){
+function Employee({employee}){
     return (
-        <tr>
-          <td>{transaction.name}</td>
-          <td>{transaction.identity-no}</td>
-          <td>{transaction.gender}</td>
-          <td>{transaction.age}</td>
+      <tr>
+      <td>{employee.name}</td>
+      <td>{employee.identitynumber}</td>
+      <td>{employee.gender}</td>
+      <td>{employee.age}</td>
         </tr>
       );  
 }

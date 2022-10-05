@@ -2,7 +2,9 @@ import React from "react";
 import Employee from "./Employee";
 
 function EmployeesList({EmployeesData}){
+  console.log(EmployeesData);
 return (
+  <>
     <table className="ui celled striped padded table">
       <tbody>
         <tr>
@@ -10,7 +12,7 @@ return (
             <h3 className="ui center aligned header">Name</h3>
           </th>
           <th>
-            <h3 className="ui center aligned header">Identity-no</h3>
+            <h3 className="ui center aligned header">Identitynumber</h3>
           </th>
           <th>
             <h3 className="ui center aligned header">Gender</h3>
@@ -25,6 +27,7 @@ return (
 
   </tbody>
   </table>
+  </>
 );
 }
 
