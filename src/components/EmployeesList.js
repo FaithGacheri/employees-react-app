@@ -1,6 +1,7 @@
 import React from "react";
+import Employee from "./Employee";
 
-function EmployeesList(){
+function EmployeesList({EmployeesData}){
 return (
     <table className="ui celled striped padded table">
       <tbody>
@@ -18,6 +19,10 @@ return (
             <h3 className="ui center aligned header">Age</h3>
           </th>
         </tr>
+{EmployeesData.map((employee)=>{
+    return <Employee employee={employee} key={employee.id}/>
+})}
+
   </tbody>
   </table>
 );
