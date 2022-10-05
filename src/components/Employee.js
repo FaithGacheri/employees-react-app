@@ -1,6 +1,6 @@
 import React from "react";
 
-function Employees(){
+function Employee(){
     return (
         <tr>
           <td>{transaction.name}</td>
@@ -10,4 +10,4 @@ function Employees(){
         </tr>
       );  
 }
-export default Employees;
+export default Employee;
