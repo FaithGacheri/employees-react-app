@@ -1,11 +1,12 @@
 import React from "react";
-import DetailsContainer from "./components/DetailsContainer";
+import EmployeeDetails from "./components/EmployeeDetails";
+
 
 function App() {
   return (
     <div className="App">
-      Hello World
-      {/* <DetailsContainer /> */}
+   
+      <EmployeeDetails/>
     </div>
   );
 }

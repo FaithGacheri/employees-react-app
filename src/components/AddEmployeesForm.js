@@ -1,6 +1,6 @@
 import React from "react";
 
-function AddTransactionForm(){
+function AddEmployeesForm(){
    
     }
-    export default AddTransactionForm;
+    export default AddEmployeesForm;
