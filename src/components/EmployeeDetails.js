@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import EmployeesList from "./EmployeesList";
+import Search from "./Search";
 
 function EmployeeDetails(){
     const [employeesData, setemployeesData]= useState([])
@@ -11,8 +12,12 @@ function EmployeeDetails(){
         })
     }, [])
 
+    function handleSearch(e){
+        const mysearch = e.target.value
+    }
     return (
         <div>
+            <Search handleSearch={handleSearch}/>
           <EmployeesList employeesData={employeesData}/>  
         </div>
     )
