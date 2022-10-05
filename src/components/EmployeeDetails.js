@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import AddEmployeesForm from "./AddEmployeesForm";
 import EmployeesList from "./EmployeesList";
 import Search from "./Search";
 
@@ -14,11 +15,18 @@ function EmployeeDetails(){
 
     function handleSearch(e){
         const mysearch = e.target.value
+        const updatedEmp =  employeesData.filter(item => item.description.toLowerCase().includes(mysearch))
+setemployeesData(updatedEmp)
     }
+    function addEmployee(employee){
+        console.log(employee);
+        setemployeesData(prevstate => [...prevstate,employee])
+      }
     return (
         <div>
             <Search handleSearch={handleSearch}/>
-          <EmployeesList employeesData={employeesData}/>  
+          <EmployeesList employeesData={employeesData}/> 
+          <AddEmployeesForm addEmployee={addEmployee} /> 
         </div>
     )
 }
