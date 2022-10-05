@@ -14,3 +14,11 @@ input {
   margin-right: 0.25 !important;
   margin-left: 0.25 !important;
 }
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: red;
+}

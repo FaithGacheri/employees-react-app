@@ -15,7 +15,7 @@ function EmployeeDetails(){
 
     function handleSearch(e){
         const mysearch = e.target.value
-        const updatedEmp =  employeesData.filter(item => item.description.toLowerCase().includes(mysearch))
+        const updatedEmp =  employeesData.filter(item => item.name.toLowerCase().includes(mysearch))
 setemployeesData(updatedEmp)
     }
     function addEmployee(employee){
