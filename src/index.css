@@ -29,3 +29,10 @@ input::placeholder {
   opacity: .5;
   color: red;
 }
+
+.title{
+  background-color: purple;
+  color: white;
+  padding: 15px;
+  margin-bottom: 20px;
+}
