@@ -1,4 +1,5 @@
 import React from "react";
+import {BiSearchAlt2} from "react-icons/bi"
 
 function Search({handleSearch}){
     return (
@@ -8,7 +9,7 @@ function Search({handleSearch}){
             placeholder="Search Details"
             onChange={(e)=>handleSearch(e)}
           />
-
+<BiSearchAlt2/>
         </div>
       );
     

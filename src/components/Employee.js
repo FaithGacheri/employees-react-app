@@ -2,12 +2,12 @@ import React from "react";
 
 function Employee({employee}){
     return (
-      <tr>
+    <tr>
       <td>{employee.name}</td>
       <td>{employee.identitynumber}</td>
       <td>{employee.gender}</td>
       <td>{employee.age}</td>
-        </tr>
+    </tr>
       );  
 }
 export default Employee;

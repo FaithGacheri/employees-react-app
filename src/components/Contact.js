@@ -11,8 +11,14 @@ return (
             <div>
                 <input type="email" name="email" placeholder="Workemail" />
             </div>
+
+            <div className="words">
+                <input type="text" name="message" placeholder="Message"/>
+            </div>
             <div>
-                <input type="submit" value="Submit" />
+            <button className="btn" type="submit">
+                  submit
+                </button>
             </div>
         </form>
     </div>
