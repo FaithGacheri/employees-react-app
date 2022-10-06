@@ -9,16 +9,16 @@ return (
       <tbody>
         <tr>
           <th>
-            <h3 className="ui center aligned header">Name</h3>
+            <h3 className="name">Name</h3>
           </th>
           <th>
-            <h3 className="ui center aligned header">Identitynumber</h3>
+            <h3 className="id-no">Identitynumber</h3>
           </th>
           <th>
-            <h3 className="ui center aligned header">Gender</h3>
+            <h3 className="gender">Gender</h3>
           </th>
           <th>
-            <h3 className="ui center aligned header">Age</h3>
+            <h3 className="age">Age</h3>
           </th>
         </tr>
 {employeesData.map((employee)=>{

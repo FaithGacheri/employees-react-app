@@ -27,7 +27,7 @@ function AddEmployeesForm({addEmployee}){
         return (
             <div className="ui segment">
               <form className="ui form" onSubmit={handleSubmit}>
-                <div className="inline fields">
+                <div className="location">
                   <input
                     type="text"
                     name="name"
@@ -63,7 +63,7 @@ function AddEmployeesForm({addEmployee}){
                     type="number"
                     name="age"
                     placeholder="age"
-                    // step="0.01"
+                    
                     onChange={(e) =>
                       setMyEmployee((prev) => ({ ...prev, age: e.target.value }))
                     }
