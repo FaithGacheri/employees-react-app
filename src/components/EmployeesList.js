@@ -5,7 +5,7 @@ function EmployeesList({employeesData}){
   // console.log(employeesData);
 return (
   <>
-    <table className="ui celled striped padded table">
+    <table className="seeing">
       <tbody>
         <tr>
           <th>

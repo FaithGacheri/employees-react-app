@@ -63,13 +63,13 @@ function AddEmployeesForm({addEmployee}){
                     type="number"
                     name="age"
                     placeholder="age"
-                    step="0.01"
+                    // step="0.01"
                     onChange={(e) =>
                       setMyEmployee((prev) => ({ ...prev, age: e.target.value }))
                     }
                   />
                 </div>
-                <button className="ui button" type="submit">
+                <button className="btn" type="submit">
                   Add Details
                 </button>
               </form>
