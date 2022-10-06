@@ -19,6 +19,13 @@ input {
   text-align: center;
 }
 
-.App-header {
+/* .get{
+  width: 100%;
   background-color: red;
+} */
+
+input::placeholder {
+  font-weight: bold;
+  opacity: .5;
+  color: red;
 }
