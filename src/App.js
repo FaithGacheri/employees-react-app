@@ -1,4 +1,5 @@
 import React from "react";
+import { Routes, Route  } from "react-router-dom";
 import EmployeeDetails from "./components/EmployeeDetails";
 import Home from "./components/Home";
 import NavBar from "./components/NavBar";
@@ -13,12 +14,12 @@ function App() {
     <h2>Employees App</h2>
    </div>
       <EmployeeDetails/>
-      {/* <NavBar/>
-      <Switch>
-        <Route exact path='/'>
-          <Home />
-        </Route>
-      </Switch> */}
+     {/* <NavBar />
+    <Routes>
+      <Route  path='/'>
+        <Home />
+      </Route>
+    </Routes> */}
     </div>
   );
 }

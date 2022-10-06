@@ -15,11 +15,11 @@ function EmployeeDetails(){
 
     function handleSearch(e){
         const mysearch = e.target.value
-        const updatedEmp =  employeesData.filter(item => item.name.toLowerCase().includes(mysearch))
-setemployeesData(updatedEmp)
+        const updatedEmployee =  employeesData.filter(detail => detail.name.toLowerCase().includes(mysearch))
+setemployeesData(updatedEmployee)
     }
     function addEmployee(employee){
-        console.log(employee);
+        
         setemployeesData(prevstate => [...prevstate,employee])
       }
     return (

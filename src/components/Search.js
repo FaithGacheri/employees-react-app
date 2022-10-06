@@ -5,10 +5,10 @@ function Search({handleSearch}){
         <div className="get">
           <input
             type="text"
-            placeholder="Search your Employees Details"
+            placeholder="Search Details"
             onChange={(e)=>handleSearch(e)}
           />
-          <i className="circular search link icon"></i>
+
         </div>
       );
     

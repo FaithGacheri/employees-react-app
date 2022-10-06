@@ -1,9 +1,9 @@
 import React, {useState} from "react";
-import Employee from "./Employee";
+
 
 function AddEmployeesForm({addEmployee}){
  
-        const [employeeId, setemployeeId] = useState(15);
+        const [employeeId, setemployeeId] = useState();
         const [myEmployee, setMyEmployee ] = useState({
           name: "",
           identitynumber: "",
@@ -20,13 +20,14 @@ function AddEmployeesForm({addEmployee}){
          }
          else{
           e.preventDefault();
-      alert("your details is not complete")
+      alert("Fill all the details")
          }
         }
 
         return (
             <div className="adding">
               <form className="ui-form" onSubmit={handleSubmit}>
+ <h3>Enter details of a new employee below</h3>
                 <div className="location">
                   <input
                     type="text"
