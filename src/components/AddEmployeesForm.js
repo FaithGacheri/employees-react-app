@@ -25,8 +25,8 @@ function AddEmployeesForm({addEmployee}){
         }
 
         return (
-            <div className="ui segment">
-              <form className="ui form" onSubmit={handleSubmit}>
+            <div className="adding">
+              <form className="ui-form" onSubmit={handleSubmit}>
                 <div className="location">
                   <input
                     type="text"

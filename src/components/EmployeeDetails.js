@@ -25,8 +25,9 @@ setemployeesData(updatedEmp)
     return (
         <div>
             <Search handleSearch={handleSearch}/>
+            <AddEmployeesForm addEmployee={addEmployee} /> 
           <EmployeesList employeesData={employeesData}/> 
-          <AddEmployeesForm addEmployee={addEmployee} /> 
+          
         </div>
     )
 }

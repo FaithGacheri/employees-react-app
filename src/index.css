@@ -26,7 +26,7 @@ input {
 
 input::placeholder {
   font-weight: bold;
-  /* opacity: .5; */
+  opacity: .5;
   color: black;
 }
 
@@ -49,4 +49,8 @@ input::placeholder {
   font-weight: bold;
   border-radius: 15px;
   background-color:lightgrey;
+}
+.location{
+  margin-top: 20px;
+  padding: 10px;
 }
