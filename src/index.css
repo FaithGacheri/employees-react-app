@@ -85,3 +85,36 @@ margin-right: 40px;
 .image{
   display: flex;
 }
+.footer{
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.co{
+  color: #fafafa;
+  list-style-type: none;
+}
+
+.det{
+  color: #fafafa;
+  list-style-type: none;
+  margin-left: 50px;
+}
+
+
+.others{
+  color: #fafafa;
+  list-style-type: none;
+  margin-left: 50px;
+}
+
+
+ ul li{
+  list-style-type: none;
+}
+
+.footer ul li a{
+  color: #fafafa;
+}

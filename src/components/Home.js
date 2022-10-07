@@ -1,5 +1,6 @@
 import React from "react";
 import img1 from "./images/gettyimages.jpg"
+import Footer from "./Footer"
 
 
 function Home() {
@@ -13,7 +14,14 @@ function Home() {
             <div className="image">
                 <img src={img1} alt=""/>
                 <h3>Time is of essence,save time on accessing employees data.Get all your data safely stored and easily accessible </h3>
+
+               
             </div>
+
+            <div>
+            <Footer/>
+            </div>
+        
         </>
     );
 }
