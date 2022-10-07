@@ -4,7 +4,7 @@ function Contact(){
 return (
     <div>
         <h1>Contact</h1>
-        <form>
+        <form onS>
             <div>
                 <input type="text" name="username" placeholder="Username" />
             </div>

@@ -59,14 +59,29 @@ input::placeholder {
 }
 
 .navbar{
-  width:  50%;
-  display: flex;
-  justify-content: space-between;
-  background-color: red;
+  width:  100%;
+ background-color: black;
   padding: 20px;
-  color: black;
+
 }
 
-/* .words{
-  padding: 20px;
-} */
+.navlink{
+  /* background-color: green; */
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+ 
+}
+
+.navlink a{
+  color: #fafafa;
+}
+
+img{
+  width: 30%;
+margin-right: 40px;
+}
+
+.image{
+  display: flex;
+}
